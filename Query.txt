@@ -1,0 +1,5 @@
+create table Messages(mid int primary key,time datetime,userenabled varchar(3),sender varchar(40),received varchar(40),subject varchar(40),content varchar(400));
+
+create table Profile(pid int primary key,pname varchar(20),pass varchar(20));
+
+create table Poke(pid int primmary key,sender varchar(20),received varchar(20));
